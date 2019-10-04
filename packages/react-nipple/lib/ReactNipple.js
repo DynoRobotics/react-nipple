@@ -93,7 +93,7 @@ var ReactNipple = (_class = function (_Component) {
         value: function componentDidUpdate(prevProps) {
             if (!(0, _lodash2.default)(prevProps.options, this.props.options)) {
                 this.destroyJoystick();
-                this.createJoystick();
+                this.createJoystick(this.props);
             }
         }
     }, {

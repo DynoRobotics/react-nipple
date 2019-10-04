@@ -2,7 +2,7 @@
   "private": true,
   "name": "react-nipple-workpace",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "packages/react-nipple/lib/index.js",
   "license": "MIT",
   "workspaces": [
     "packages/*"
