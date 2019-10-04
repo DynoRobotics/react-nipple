@@ -92,7 +92,7 @@ export default class ReactNipple extends Component {
     componentDidUpdate(prevProps) {
         if (!isEqual(prevProps.options, this.props.options)) {
             this.destroyJoystick();
-            this.createJoystick();
+            this.createJoystick(this.props);
         }
     }
 
